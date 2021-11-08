@@ -17,9 +17,9 @@ First, I needed to predict which model would preform better. My hypothesis was t
 
 I first created the models and fit the data without scaling the data so that I can compare and learn the importance of scaling. I anticipated that not scaling would impact the results for both models because the range of continuous data columns in the dataset were widely different.
 
-Without scaling, there was a soft error with the Logistic Regression asking for more iterations or to scale the data. However, it still provided a training and testing score of .654 and .510.  The Random Forest Classifier provided a training and testing score of 1.0 and .64.
+Without scaling, there was a soft error with the Logistic Regression asking for more iterations or to scale the data. However, it still provided a training and testing score of .654 and .510.  The Random Forest Classifier provided a training and testing score of 1.00 and .650.
 
-Next, I scaled the data using Standard Scaler. The Logistic Regression model provided training and testing score of .712 and .760, while the Random Forecast Classifier provided a training and testing score of 1.0 and .650 - not very different from unscaled.
+Next, I scaled the data using Standard Scaler. The Logistic Regression model provided training and testing score of .712 and .760, while the Random Forecast Classifier provided a training and testing score of 1.00 and .650 - same as unscaled.
 
 ## Conclusion
 
